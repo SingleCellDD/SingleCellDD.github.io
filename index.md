@@ -1,5 +1,3 @@
-# About
-
 SingleCellDD is a community of scientists in Dresden working on Single-Cell Biology. We organise a monthly discussion round and invite speakers for talks in our single cell seminar series. _Everybody is welcome to join!_
 
 # Mailing List 
