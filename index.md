@@ -6,7 +6,7 @@ Announcements are spread via our [mailing list](https://mailman.zih.tu-dresden.d
 
 # Chat room
 
-Outside of meetings, discussions continue in our [Matrix space](https://matrix.to/#/#SingleCellDD:tu-dresden.de).
+Outside of meetings, discussions continue in our [Matrix room](https://matrix.to/#/#singlecelldd:tu-dresden.de).
 
 TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresden.de/#/#SingleCellDD:tu-dresden.de). Otherwise, you can create an account [here](https://app.element.io/#/login).
 
