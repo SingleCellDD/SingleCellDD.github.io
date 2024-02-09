@@ -12,8 +12,7 @@ TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresde
 
 # Organisers
 
-Ulrike Friedrich (Dresden-concept Genome Center)
-
+Ulrike Friedrich (Dresden-concept Genome Center)  
 [Fabian Rost](https://fis.tu-dresden.de/portal/de/researchers/fabian-rost(3bddab67-b069-483b-90a8-48277c1b80e0).html) (MPI-CBG)
 
 Contact us, if you have any questions.
