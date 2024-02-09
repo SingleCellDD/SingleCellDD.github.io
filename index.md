@@ -10,8 +10,9 @@ Outside of meetings, discussions continue in our [Matrix room](https://matrix.to
 
 TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresden.de/#/#SingleCellDD:tu-dresden.de). Otherwise, you can create an account [here](https://app.element.io/#/login).
 
-# Organiser
+# Organisers
 
-[Fabian Rost](https://fis.tu-dresden.de/portal/de/researchers/fabian-rost(3bddab67-b069-483b-90a8-48277c1b80e0).html) (Dresden-concept Genome Center)
+Ulrike Friedrich (Dresden-concept Genome Center)
+[Fabian Rost](https://fis.tu-dresden.de/portal/de/researchers/fabian-rost(3bddab67-b069-483b-90a8-48277c1b80e0).html) (MPI-CBG)
 
-Contact me, if you have any questions.
+Contact us, if you have any questions.
