@@ -14,9 +14,21 @@ TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresde
 
 We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2024 (location in paranthesis). 
 
-- Oct 23, 2024 (CRTD, SR2)
 - Nov 27, 2024 (MPI-CBG, SR1)
 - Dec 18, 2024 (CRTD, SR2)
+- 15 January 2025
+- 12 February 2025
+- 12 March 2025
+- 9 April 2025
+- 7 May 2025
+- 4 June 2025
+- 2 July 2025
+- 30 July 2025
+- 27 August 2025
+- 24 September 2025
+- 22 October 2025
+- 19 November 2025
+- 17 December 2025
 
 
 # Organisers
