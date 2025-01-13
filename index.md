@@ -14,9 +14,9 @@ TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresde
 
 We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2024 (location in paranthesis). 
 
-<div id="events-list">
-  <!-- Events will be dynamically inserted here -->
-</div>
+<pre id="events-list">
+  <!-- Events will be dynamically inserted here in Markdown format -->
+</pre>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
@@ -24,18 +24,27 @@ We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2
   document.addEventListener("DOMContentLoaded", function() {
     const currentDate = new Date();
 
-    // Function to display events
+    // Function to format the date as "Feb 12, 2025"
+    function formatDate(date) {
+      const options = { year: 'numeric', month: 'short', day: 'numeric' };
+      return new Intl.DateTimeFormat('en-US', options).format(date);
+    }
+
+    // Function to display events as Markdown bullet points
     function displayEvents(events) {
       const eventsList = document.getElementById("events-list");
+      let markdownList = "";
+      
       events.forEach(event => {
         const eventDate = new Date(event.Date);
         if (eventDate >= currentDate) {
-          const eventElement = document.createElement("div");
-          eventElement.classList.add("event");
-          eventElement.innerHTML = `On ${event.Date} at ${event.Location}`;
-          eventsList.appendChild(eventElement);
+          const formattedDate = formatDate(eventDate);  // Use the new date format
+          markdownList += `- ${formattedDate} (${event.Location})\n`;
         }
       });
+      
+      // Set the Markdown list to the preformatted text block
+      eventsList.textContent = markdownList;
     }
 
     // Fetch and parse the CSV file
