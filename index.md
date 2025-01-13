@@ -14,7 +14,43 @@ TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresde
 
 We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2024 (location in paranthesis). 
 
-- Jan 15, 2025 (CRTD, SR4, 3.310)
+<div id="events-list">
+  <!-- Events will be dynamically inserted here -->
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const currentDate = new Date();
+
+    // Function to display events
+    function displayEvents(events) {
+      const eventsList = document.getElementById("events-list");
+      events.forEach(event => {
+        const eventDate = new Date(event.Date);
+        if (eventDate >= currentDate) {
+          const eventElement = document.createElement("div");
+          eventElement.classList.add("event");
+          eventElement.innerHTML = `On ${event.Date} at ${event.Location}`;
+          eventsList.appendChild(eventElement);
+        }
+      });
+    }
+
+    // Fetch and parse the CSV file
+    Papa.parse("assets/events.csv", {
+      download: true,
+      header: true,
+      dynamicTyping: true,
+      complete: function(results) {
+        displayEvents(results.data);
+      }
+    });
+  });
+</script>
+
+<!-- - Jan 15, 2025 (CRTD, SR4, 3.310)
 - Feb 12, 2025 (CRTD, SR3, 3.310)
 - Mar 12, 2025 (CRTD, SR3, 3.310)
 - Apr 9, 2025 (CRTD, SR3, 3.310)
@@ -26,7 +62,7 @@ We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2
 - Sep 24, 2025 (CSBD, Ground Floor SR)
 - Oct 22, 2025 (CRTD, SR3, 3.310)
 - Nov 19, 2025 (CRTD, SR3, 3.310)
-- Dec 17, 2025 (CRTD, SR3, 3.310)
+- Dec 17, 2025 (CRTD, SR3, 3.310) -->
 
 
 # Organisers
