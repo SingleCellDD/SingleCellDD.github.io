@@ -23,6 +23,8 @@ We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const currentDate = new Date();
+    const twoDaysAgo = new Date(currentDate);
+    twoDaysAgo.setDate(currentDate.getDate() - 2); // Get the date for 2 days ago
 
     // Function to format the date as "Feb 12, 2025"
     function formatDate(date) {
@@ -37,7 +39,8 @@ We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2
 
       events.forEach(event => {
         const eventDate = new Date(event.Date);
-        if (eventDate >= currentDate) {
+        // Check if the event is within the past 2 days or in the future
+        if (eventDate >= twoDaysAgo) {
           const formattedDate = formatDate(eventDate);  // Use the new date format
           htmlList += `<li>${formattedDate} (${event.Location})</li>`; // Add each event as a list item
         }
