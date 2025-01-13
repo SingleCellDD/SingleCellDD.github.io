@@ -14,9 +14,9 @@ TU Dresden members can join with their ZIH login [here](https://matrix.tu-dresde
 
 We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2024 (location in paranthesis). 
 
-<pre id="events-list">
+<div id="events-list">
   <!-- Events will be dynamically inserted here in Markdown format -->
-</pre>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
@@ -43,8 +43,8 @@ We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2
         }
       });
       
-      // Set the Markdown list to the preformatted text block
-      eventsList.textContent = markdownList;
+      // Set the Markdown list to the div (which GitHub Pages will render as Markdown)
+      eventsList.innerHTML = markdownList;
     }
 
     // Fetch and parse the CSV file
