@@ -61,21 +61,6 @@ We meet on a Wednesday every 4 weeks at 13:00. These are the dates planned for 2
   });
 </script>
 
-<!-- - Jan 15, 2025 (CRTD, SR4, 3.310)
-- Feb 12, 2025 (CRTD, SR3, 3.310)
-- Mar 12, 2025 (CRTD, SR3, 3.310)
-- Apr 9, 2025 (CRTD, SR3, 3.310)
-- May 7, 2025 (CRTD, SR3, 3.310)
-- Jun 4, 2025 (CRTD, SR3, 3.310)
-- Jul 2, 2025 (CRTD, SR3, 3.310)
-- Jul 30, 2025 (CRTD, SR3, 3.310)
-- Aug 27, 2025 (CRTD, SR3, 3.310)
-- Sep 24, 2025 (CSBD, Ground Floor SR)
-- Oct 22, 2025 (CRTD, SR3, 3.310)
-- Nov 19, 2025 (CRTD, SR3, 3.310)
-- Dec 17, 2025 (CRTD, SR3, 3.310) -->
-
-
 # Organisers
 
 Ulrike Friedrich (Dresden-concept Genome Center)  
